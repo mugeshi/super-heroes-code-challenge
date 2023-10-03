@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
-import os
-from flask import Flask, make_response
+from flask import Flask
 from flask_migrate import Migrate
-from flask import Blueprint, jsonify, request
+from flask import  jsonify, request
 from models import Hero, Power, HeroPower, db
 from models import db, Hero
 
